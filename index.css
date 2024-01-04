@@ -6,6 +6,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .white {
@@ -13,8 +18,8 @@ body {
 }
 
 #startButton {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     font-size: 50px;
 }
 
@@ -24,8 +29,12 @@ img {
     padding-bottom: 5px;
 }
 
+#chosenMinutesLabel {
+    font-size: 30px;
+}
+
 #chosenMinutes {
-    width: 100px;
+    width: 200px;
 }
 
 #numberChooserDiv {
