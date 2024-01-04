@@ -1,7 +1,8 @@
-import {startButtonClicked} from "./button.js";
+import {startButtonClicked, setSound} from "./button.js";
 
 document.getElementById("startButton").addEventListener("click", () => {
     startButtonClicked();
+    setSound(new Audio('yippee.mp3'));
     });
 
 document.getElementById("chosenMinutes").addEventListener("input", (event) => {

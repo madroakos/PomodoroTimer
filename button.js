@@ -4,7 +4,7 @@ let startButton = document.getElementById("startButton");
 let numberOfPushes = 0;
 let myTimer = 0;
 let myTimerInterval;
-let audio = new Audio('yippee.mp3');
+let sound;
 let numberChooserDiv = document.getElementById("numberChooserDiv");
 let inputTagDiv = document.getElementById("inputTagDiv");
 let containerDiv = document.getElementById("container");
@@ -75,7 +75,7 @@ function stopTimer() {
     if (getTimer() === 0) {
 
         numberChooserDiv.append(inputTagDiv);
-        audio.play();
+        sound.play();
         changeToStart();
     }
 }
@@ -109,4 +109,8 @@ function appendResetButton() {
     });
 }
 
-export {startButtonClicked};
+function setSound(newSound) {
+    sound = newSound;
+}
+
+export {startButtonClicked, setSound};
