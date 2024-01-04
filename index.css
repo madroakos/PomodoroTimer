@@ -43,6 +43,7 @@ img {
 
 #resetButton {
     position: absolute;
+    font-size: 4vh;
     width: 8vh;
     height: 8vh;
 }
@@ -50,9 +51,6 @@ img {
 #counter {
     font-size: 4vh;
 }
-
-
-
 
 .slider {
     -webkit-appearance: none;  /* Override default CSS styles */
