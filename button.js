@@ -53,6 +53,9 @@ function changeToStart() {
     if (document.getElementById("counter") != null) {
         document.getElementById("counter").remove();
     }
+    if (document.getElementById("resetButton") != null) {
+        document.getElementById("resetButton").remove();
+    }
     containerDiv.append(numberChooserDiv);
 
 }
