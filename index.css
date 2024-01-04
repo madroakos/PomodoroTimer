@@ -58,7 +58,7 @@ img {
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
     width: 100%; /* Full-width */
-    height: 10px; /* Specified height */
+    height: 1vh; /* Specified height */
     background: #d3d3d3; /* Grey background */
     border-radius: 50px;
     outline: none; /* Remove outline */
@@ -76,8 +76,8 @@ img {
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
-    width: 40px; /* Set a specific slider handle width */
-    height: 40px; /* Slider handle height */
+    width: 4vh; /* Set a specific slider handle width */
+    height: 4vh; /* Slider handle height */
     background: lightskyblue; /* Green background */
     border-radius: 50px;
     cursor: pointer; /* Cursor on hover */
