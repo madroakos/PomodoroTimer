@@ -13,7 +13,7 @@ let resetButton = document.createElement("button");
 function startButtonClicked() {
     if (numberOfPushes % 2 === 0) {
         if (numberOfPushes === 0) {
-            setTimer(document.getElementById("chosenMinutes").value);
+            setTimer(document.getElementById("chosenMinutes").value * 60);
             numberChooserDiv.remove();
             appendResetButton();
 
