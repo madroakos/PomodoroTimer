@@ -9,7 +9,7 @@ document.getElementById("chosenMinutes").addEventListener("input", (event) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("chosenMinutes").value = 5;
+    document.getElementById("chosenMinutes").value = 25;
     document.getElementById("chosenMinutesLabel").textContent = document.getElementById("chosenMinutes").value + " minutes";
 });
 
