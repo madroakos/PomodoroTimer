@@ -20,7 +20,7 @@ h1 {
 #startButton {
     width: 50vw;
     height: 50vw;
-    font-size: 50px;
+    font-size: 7vw;
 }
 
 img {
@@ -34,7 +34,7 @@ img {
 }
 
 #chosenMinutes {
-    width: 30vw;
+    width: 50vw;
 }
 
 #numberChooserDiv {
@@ -43,4 +43,10 @@ img {
 
 #resetButton {
     position: absolute;
+    width: 8vh;
+    height: 8vh;
+}
+
+#counter {
+    font-size: 4vw;
 }
