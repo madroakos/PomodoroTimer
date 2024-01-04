@@ -1,0 +1,39 @@
+body {
+    background-color: #3D3B40;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.white {
+    color: white;
+}
+
+#startButton {
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+#chosenMinutes {
+    width: 100px;
+}
+
+#numberChooserDiv {
+    text-align: center;
+}
+
+#resetButton {
+    position: absolute;
+}
